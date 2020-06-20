@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-CMS-BBB63C94-2253-48D8-A696-C01F954BF784</UserSecretsId>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\adminty\bower_components\animate.css\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\autosize\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap-datepicker\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap-daterangepicker\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap-daterangepicker\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap-maxlength\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap-multiselect\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap-multiselect\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap-tagsinput\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap-tagsinput\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\bootstrap\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\c3\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\c3\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\chart.js\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\chartist\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\chartist\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\clndr\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\countdown\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\cropper\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\cropper\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\d3\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\datatables.net-bs4\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\datatables.net-bs4\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\datatables.net-buttons\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\datatables.net-responsive-bs4\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\datatables.net-responsive-bs4\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\datatables.net-responsive\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\datatables.net\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\datedropper\css\dd-icon\" />
+    <Folder Include="wwwroot\adminty\bower_components\datedropper\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\ekko-lightbox\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\ekko-lightbox\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\font-awesome\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\font-awesome\fonts\" />
+    <Folder Include="wwwroot\adminty\bower_components\fullcalendar\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\fullcalendar\js\" />
+    <Folder Include="wwwroot\adminty\bower_components\handsontable\css\" />
+    <Folder Include="wwwroot\adminty\bower_components\handsontable\js\" />
+  </ItemGroup>
+
+</Project>
